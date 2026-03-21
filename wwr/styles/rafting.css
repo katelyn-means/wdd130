@@ -1,0 +1,100 @@
+:root {
+    --primary-color: #d36e2c;
+    --accent-color: #c3923c;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: black;
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+header img {
+    width: 125px;
+    height: auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent-color);
+    color: #fff;
+}
+
+h2 {
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent-color);
+    color: #fff;
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 18px;
+}
+
+article {
+    position: absolute;
+    bottom: 1px;
+    width: 96%;
+    padding: 16px;
+    text-align: center;
+    font-size: small;
+    opacity: 0.7;
+    background-color: var(--accent-color);
+    color: #fff;
+}
+
+footer a img {
+    width: 25px;
+    height: auto;
+}
+
+/* Class Selectors */
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
