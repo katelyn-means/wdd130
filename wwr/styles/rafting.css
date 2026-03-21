@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #d36e2c;
-    --accent-color: #c3923c;
+    --primary-color: #FC4A1A;
+    --accent-color: #F7B733;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -40,7 +40,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.8;
     background-color: var(--primary-color);
     color: #fff;
 }
@@ -60,18 +60,6 @@ section,
 article {
     margin: 16px;
     padding: 18px;
-}
-
-article {
-    position: absolute;
-    bottom: 1px;
-    width: 96%;
-    padding: 16px;
-    text-align: center;
-    font-size: small;
-    opacity: 0.7;
-    background-color: var(--accent-color);
-    color: #fff;
 }
 
 footer a img {
