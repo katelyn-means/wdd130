@@ -1,8 +1,9 @@
 :root {
     --primary-color: #2D545E;
-    --accent-color: #e23838;
+    --accent-color: #d22b2b;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    ---text: #fff;
 }
 
 * {
@@ -13,7 +14,7 @@
 
 body {
     font-family: var(--body-font);
-    color: black;
+    color: #000;
 }
 
 header,
@@ -48,7 +49,7 @@ h1 {
     text-align: center;
     opacity: 0.8;
     background-color: var(--primary-color);
-    color: #fff;
+    color: var(---text);
 }
 
 h2 {
@@ -57,7 +58,7 @@ h2 {
     padding: 16px;
     text-align: center;
     background-color: var(--accent-color);
-    color: #fff;
+    color: var(---text);
 }
 
 nav,
@@ -119,7 +120,7 @@ footer a img {
     font-size: small;
     opacity: 0.7;
     background-color: var(--primary-color);
-    color: #fff;
+    color: var(---text);
 }
 
 .navigation {
